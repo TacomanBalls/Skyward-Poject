@@ -32,7 +32,6 @@ public class SkywardMain {
                     int attendance = school.getAttendance(i, classID);
                     System.out.println("\t\t" + Classes.get(classID) + " (Grade: " + grade + ", Attendance: " + attendance + ")");
                 }
-                System.out.println(""); // Print a newline after each student's classes
             }
 
             // Display existing classes
